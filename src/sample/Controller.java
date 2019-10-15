@@ -30,6 +30,7 @@ public class Controller {
             Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 
             window.setScene(mainMenuPageScene);
+            window.centerOnScreen();
             window.show();
         }
         else
