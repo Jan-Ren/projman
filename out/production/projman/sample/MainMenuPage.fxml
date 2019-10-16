@@ -1,19 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Azure;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Azure;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Button fx:id="logoutButton" layoutX="14.0" layoutY="355.0" style="-fx-font-weight: bold" mnemonicParsing="false" onAction="#closeButton" text="Log Out"  />
-        <Button fx:id="accountingButton" layoutX="466.0" layoutY="123.0" style="-fx-font-weight: bold" mnemonicParsing="false" onAction="#accountpageSwitch" prefHeight="120.0" prefWidth="120.0" text="Account" />
-        <Button fx:id="inventoryButton" layoutX="322.0" layoutY="123.0" style="-fx-font-weight: bold" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="Inventory" />
-        <Button fx:id="salesOrdersButton" layoutX="30.0" layoutY="123.0" style="-fx-font-weight: bold" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="Sales &amp; Orders" />
-        <Button fx:id="reportsButton" layoutX="180.0" layoutY="123.0" style="-fx-font-weight: bold" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="Reports" />
+        <Button fx:id="logoutButton" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#closeButton" style="-fx-font-weight: bold" text="Log Out" />
+        <Button fx:id="accountingButton" contentDisplay="TOP" layoutX="466.0" layoutY="123.0" mnemonicParsing="false" onAction="#accountpageSwitch" prefHeight="120.0" prefWidth="120.0" style="-fx-font-weight: bold" text="Accounting">
+         <graphic>
+            <ImageView fitHeight="56.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@accounting.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+        <Button fx:id="inventoryButton" alignment="CENTER" contentDisplay="TOP" layoutX="322.0" layoutY="123.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-font-weight: bold" text="Inventory" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="57.0" fitWidth="62.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@inventory.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+        <Button fx:id="salesOrdersButton" contentDisplay="TOP" layoutX="30.0" layoutY="123.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-font-weight: bold" text="Sales &amp; Orders">
+         <graphic>
+            <ImageView fitHeight="63.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sales.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+        <Button fx:id="reportsButton" contentDisplay="TOP" layoutX="180.0" layoutY="123.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-font-weight: bold" text="Reports">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@report.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font></Button>
     </children>
 </AnchorPane>
