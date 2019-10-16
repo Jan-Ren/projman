@@ -33,8 +33,14 @@ public class Controller {
             window.centerOnScreen();
             window.show();
         }
-        else
-            System.out.println("Invalid Username/Password!");
+        else{
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText(null);
+            alert.setContentText("Invalid Username/Password");
+
+            alert.showAndWait();
+        }
     }
 
     @FXML
