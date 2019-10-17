@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class Controller {
     @FXML
-    Button loginButton, logoutButton, accountingButton, salesOrdersButton, reportsButton, inventoryButton, mainMenuButton;
+    Button quitButton, loginButton, logoutButton, accountingButton, salesOrdersButton, reportsButton, inventoryButton, mainMenuButton;
     @FXML
     TextField uField;
     @FXML
@@ -45,17 +45,38 @@ public class Controller {
 
     @FXML
     public void closeButton(){
-        Stage stage = (Stage) logoutButton.getScene().getWindow();
+        Stage stage = (Stage) quitButton.getScene().getWindow();
         stage.close();
     }
 
-    public void accountpageSwitch(ActionEvent event) throws IOException {
+    public void loginPageSwitch(ActionEvent event) throws IOException {
+        Parent loginPageParent = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
+        Scene loginPageScene = new Scene(loginPageParent);
+
+        Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(loginPageScene);
+        window.centerOnScreen();
+        window.show();
+    }
+
+    public void accountPageSwitch(ActionEvent event) throws IOException {
         Parent accountingPageParent = FXMLLoader.load(getClass().getResource("AccountingPage.fxml"));
         Scene accountingPageScene = new Scene(accountingPageParent);
 
         Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 
         window.setScene(accountingPageScene);
+        window.show();
+    }
+
+    public void InventoryPageSwitch(ActionEvent event) throws IOException{
+        Parent inventoryPageParent = FXMLLoader.load(getClass().getResource("InventoryPage.fxml"));
+        Scene inventoryPageScene = new Scene(inventoryPageParent);
+
+        Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(inventoryPageScene);
         window.show();
     }
 

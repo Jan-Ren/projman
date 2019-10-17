@@ -59,6 +59,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="FxmlFile" />
       </list>
     </option>
@@ -72,12 +73,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="150" />
-    <option name="y" value="15" />
-    <option name="width" value="1615" />
-    <option name="height" value="880" />
-  </component>
   <component name="ProjectId" id="1SAYAuljm2CGTZUJdA8V3eI67bR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">

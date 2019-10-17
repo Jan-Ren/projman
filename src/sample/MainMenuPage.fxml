@@ -9,8 +9,8 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Azure;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Button fx:id="logoutButton" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#closeButton" style="-fx-font-weight: bold" text="Log Out" />
-        <Button fx:id="accountingButton" contentDisplay="TOP" layoutX="466.0" layoutY="123.0" mnemonicParsing="false" onAction="#accountpageSwitch" prefHeight="120.0" prefWidth="120.0" style="-fx-font-weight: bold" text="Accounting">
+        <Button fx:id="logoutButton" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#loginPageSwitch" style="-fx-font-weight: bold" text="Log Out" />
+        <Button fx:id="accountingButton" contentDisplay="TOP" layoutX="466.0" layoutY="123.0" mnemonicParsing="false" onAction="#accountPageSwitch" prefHeight="120.0" prefWidth="120.0" style="-fx-font-weight: bold" text="Accounting">
          <graphic>
             <ImageView fitHeight="56.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -21,7 +21,7 @@
          <font>
             <Font size="15.0" />
          </font></Button>
-        <Button fx:id="inventoryButton" alignment="CENTER" contentDisplay="TOP" layoutX="322.0" layoutY="123.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" style="-fx-font-weight: bold" text="Inventory" textAlignment="CENTER">
+        <Button fx:id="inventoryButton" alignment="CENTER" contentDisplay="TOP" layoutX="322.0" layoutY="123.0" mnemonicParsing="false" onAction="#InventoryPageSwitch" prefHeight="120.0" prefWidth="120.0" style="-fx-font-weight: bold" text="Inventory" textAlignment="CENTER">
          <font>
             <Font size="15.0" />
          </font>
