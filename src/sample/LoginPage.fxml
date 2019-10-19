@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
@@ -13,33 +9,20 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<<<<<<< HEAD
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="358.0" prefWidth="512.0" style="-fx-background-color: #F9FAF2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
         <Button fx:id="loginButton" contentDisplay="TOP" layoutX="233.0" layoutY="303.0" mnemonicParsing="false" onAction="#logInButtonPressed" text="Login" />
         <TextField fx:id="uField" layoutX="181.0" layoutY="220.0" prefHeight="26.0" prefWidth="149.0" promptText="Username" />
         <PasswordField fx:id="pField" layoutX="181.0" layoutY="256.0" promptText="Password" />
-        <Label layoutX="181.0" layoutY="173.0" prefHeight="35.0" prefWidth="149.0" text="POS SYSTEM">
-=======
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="400.0" style="-fx-background-color: Azure;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-    <children>
-        <Button fx:id="loginButton" contentDisplay="TOP" layoutX="172.0" layoutY="185.0" mnemonicParsing="false" onAction="#logInButtonPressed" text="Login" />
-        <TextField fx:id="uField" layoutX="125.0" layoutY="104.0" prefHeight="26.0" prefWidth="149.0" promptText="Username" />
-        <PasswordField fx:id="pField" layoutX="126.0" layoutY="139.0" prefHeight="31.0" prefWidth="149.0" promptText="Password" />
-        <Label layoutX="130.0" layoutY="46.0" text="POS System">
->>>>>>> 5ca069af0116443626879d28b05c1104971e7f1b
+        <Label layoutX="181.0" layoutY="179.0" prefHeight="35.0" prefWidth="149.0" text="POS SYSTEM" textAlignment="CENTER">
             <font>
                 <Font name="System Bold" size="24.0" />
             </font>
         </Label>
-<<<<<<< HEAD
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="181.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@teppan.png" />
          </image>
       </ImageView>
-=======
-      <Button fx:id="quitButton" contentDisplay="TOP" layoutX="14.0" layoutY="200.0" mnemonicParsing="false" onAction="#closeButton" text="Quit" />
->>>>>>> 5ca069af0116443626879d28b05c1104971e7f1b
     </children>
 </AnchorPane>
