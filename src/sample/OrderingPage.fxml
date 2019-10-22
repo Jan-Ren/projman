@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="532.0" prefWidth="826.0" style="-fx-background-color: #9a3936;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane prefHeight="636.0" prefWidth="957.0" style="-fx-background-color: #5a0405;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Button layoutX="712.0" layoutY="137.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="99.0" text="Button" />
-      <Button layoutX="590.0" layoutY="137.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="99.0" text="Button" />
-      <Button layoutX="464.0" layoutY="137.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="99.0" text="Button" />
-      <Button layoutX="590.0" layoutY="208.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="99.0" text="Button" />
-      <Button layoutX="712.0" layoutY="208.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="99.0" text="Button" />
-      <Button layoutX="464.0" layoutY="208.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="99.0" text="Button" />
+      <SplitPane dividerPositions="0.4342552159146046" prefHeight="636.0" prefWidth="957.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="530.0" prefWidth="354.0" style="-fx-background-color: #5a0405;">
+               <children>
+                  <TextArea layoutX="30.0" layoutY="70.0" prefHeight="339.0" prefWidth="296.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="582.0" prefWidth="525.0" style="-fx-background-color: #5a0405;" />
+        </items>
+      </SplitPane>
    </children>
 </AnchorPane>

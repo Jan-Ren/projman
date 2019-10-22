@@ -12,7 +12,7 @@ public class MainMenu extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
         primaryStage.setTitle("Teppanyaki House POS");
-        primaryStage.setScene(new Scene(root, 500, 350));
+        primaryStage.setScene(new Scene(root, 500, 400));
         primaryStage.show();
     }
 
