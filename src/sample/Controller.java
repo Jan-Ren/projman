@@ -89,4 +89,15 @@ public class Controller {
         window.setScene(mainMenuScene);
         window.show();
     }
+
+    public void orderingPageSwitch(ActionEvent event) throws IOException {
+        Parent orderingPageParent = FXMLLoader.load(getClass().getResource("OrderingPage.fxml"));
+        Scene orderingPageScene = new Scene(orderingPageParent);
+
+        Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+
+        window.setScene(orderingPageScene);
+        window.centerOnScreen();
+        window.show();
+    }
 }
