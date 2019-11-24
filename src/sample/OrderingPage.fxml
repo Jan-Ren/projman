@@ -8,105 +8,104 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="636.0" prefWidth="1022.0" style="-fx-background-color: #5a0405;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <SplitPane dividerPositions="0.4342552159146046" prefHeight="636.0" prefWidth="1022.0">
+      <SplitPane dividerPositions="0.3665229321834575" prefHeight="636.0" prefWidth="1022.0">
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="530.0" prefWidth="354.0" style="-fx-background-color: #F9FAF2;">
                <children>
-                  <TextArea editable="false" layoutX="35.0" layoutY="101.0" prefHeight="378.0" prefWidth="191.0" />
+                  <TextArea editable="false" layoutX="35.0" layoutY="101.0" prefHeight="434.0" prefWidth="191.0" />
                   <Label layoutX="45.0" layoutY="76.0" prefHeight="18.0" prefWidth="46.0" text="Name" />
-                  <TextArea editable="false" layoutX="226.0" layoutY="101.0" prefHeight="378.0" prefWidth="46.0" />
+                  <TextArea editable="false" layoutX="226.0" layoutY="101.0" prefHeight="434.0" prefWidth="88.0" />
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="634.0" prefWidth="580.0" style="-fx-background-color: #5a0405;">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="634.0" prefWidth="590.0" style="-fx-background-color: #5a0405;">
                <children>
-                  <Pane prefHeight="91.0" prefWidth="574.0" style="-fx-background-color: black;">
+                  <Pane prefHeight="91.0" prefWidth="644.0" style="-fx-background-color: black;">
                      <children>
-                        <Button layoutX="12.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Rice Bowls">
+                        <Button layoutX="47.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Rice Bowls">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
                         </Button>
-                        <Button layoutX="122.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Teppanyaki Set">
+                        <Button layoutX="157.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Teppanyaki Set">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
                         </Button>
-                        <Button layoutX="232.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Canolelit Set">
+                        <Button layoutX="267.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Canolelit Set">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
                         </Button>
-                        <Button layoutX="342.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Sides">
+                        <Button layoutX="377.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Sides">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
                         </Button>
-                        <Button layoutX="452.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Drinks">
+                        <Button layoutX="487.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Drinks">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
                         </Button>
                      </children>
                   </Pane>
-                  <Button layoutX="54.0" layoutY="135.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="1">
+                  <Button layoutX="89.0" layoutY="132.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="1">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="219.0" layoutY="135.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="2">
+                  <Button layoutX="254.0" layoutY="132.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="2">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="385.0" layoutY="135.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="3">
+                  <Button layoutX="420.0" layoutY="132.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="3">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="54.0" layoutY="248.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="4">
+                  <Button layoutX="89.0" layoutY="245.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="219.0" layoutY="248.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="5">
+                  <Button layoutX="254.0" layoutY="245.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="5">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="385.0" layoutY="248.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="6">
+                  <Button layoutX="420.0" layoutY="245.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="6">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="54.0" layoutY="362.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="7">
+                  <Button layoutX="89.0" layoutY="359.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="7">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="219.0" layoutY="362.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="8">
+                  <Button layoutX="254.0" layoutY="359.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="8">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="385.0" layoutY="362.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="9">
+                  <Button layoutX="420.0" layoutY="359.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="9">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="54.0" layoutY="475.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="10">
+                  <Button layoutX="89.0" layoutY="472.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="10">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="219.0" layoutY="475.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="11">
+                  <Button layoutX="254.0" layoutY="472.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="11">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="385.0" layoutY="475.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="12">
+                  <Button layoutX="420.0" layoutY="472.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="135.0" text="12">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
